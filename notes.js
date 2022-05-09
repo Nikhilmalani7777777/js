@@ -93,5 +93,54 @@ console.log("hello friends this for testing purpose".indexOf("friends"));
 
 console.log("Hello friends this is for testing purpose");
 
+//search method is used to search text from string and it will returns index value
+
+console.log("hello friends this is for testing purpose".search("friends"));
+
+//looks like it works same as the indexof method but there is some difference
+//search method has no starting index parameter and we can use regex with search
+//indexof method cant take regex expressions thst's all as defference
+
+//includes method is used to check is text exist in string or not it will return boolean value
+
+console.log("hello friends".includes("hello"));
+
+//startswith method is used to check starting point of string
+
+console.log("hello friends this is for testing purpose".startsWith("hello"));
+
+//endswith mewthod is used to check ending point of string
+
+console.log("hey buddy what's going on".endsWith("on"));
+
+//back-ticks
+//
+//we can use back-ticks for multiple lines
+
+let tmp = `hello
+friends 
+this is 
+for 
+testing 
+purpose`;
+console.log(tmp);
+
+//we can use interpolation in back-ticks
+
+console.log(`hello friends this is the text :${name}`);
+
+//we can also do math operation in interpolation
+
+console.log(`${12+2}`);
+
+//Numbers
+
+//without decimal number
+
+console.log(12);
+
+//with decimal number
+
+console.log(12.12);
 
 
