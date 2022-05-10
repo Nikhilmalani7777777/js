@@ -143,4 +143,43 @@ console.log(12);
 
 console.log(12.12);
 
+tmp = "100"+"100";
+
+console.log(tmp);
+
+//NaN if we perform math operation with other character instead of numbers then it will rteturns NaN
+
+console.log(12*"apple");
+
+//infinity when we perforn any kind of infinite operation then it will return Infinity
+//and also when divide any value by zero it'll return Infinity
+
+tmp = 12;
+
+while(tmp != Infinity ){
+
+	tmp = tmp * tmp;
+	console.log(tmp);
+
+}
+
+console.log(12/0);
+
+//hexadecimal we can store hex-dec value in variable
+
+tmp = 0xFF;
+
+console.log(tmp);
+
+//tostring using it we can get value in base we wanted
+
+tmp = 32;
+
+console.log(tmp.toString(36));
+
+//number object we can create number object
+
+tmp = new Number(127);
+
+console.log(tmp);
 
