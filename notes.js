@@ -183,3 +183,18 @@ tmp = new Number(127);
 
 console.log(tmp);
 
+
+//tostring method is used to convert number to string
+
+{
+
+        let a = 12;
+
+        let b = "data : ";
+
+        b += a.toString();
+
+        console.log(b);
+
+}
+
