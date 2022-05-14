@@ -198,3 +198,38 @@ console.log(tmp);
 
 }
 
+
+//array
+
+{
+	
+	let names = ["nik", "ron", "jimmy"];
+
+	console.log(names[0]);
+	console.log(names[1]);
+	console.log(names[2]);
+
+	//assign
+	
+
+	names[1] = "rocky";
+
+	console.log(names[1]);
+
+	//length
+	
+	console.log(names.length);
+
+}
+
+//instanceof is used check type of data
+
+
+{
+
+	let nums = [12,23,34,45,56];
+	
+	nums instanceof Array
+	
+}
+
