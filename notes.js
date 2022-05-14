@@ -228,8 +228,9 @@ console.log(tmp);
 {
 
 	let nums = [12,23,34,45,56];
-	
-	nums instanceof Array
-	
+
+	console.log(nums instanceof Array);
+
 }
+
 
