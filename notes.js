@@ -262,6 +262,37 @@ console.log(tmp);
 	console.log((++a));//increment
 
 	console.log((--b));//decrement
+	
+	
+	//logical operators
+	
+
+	//== equal to operator
+	
+	console.log(12==12);//returns true if both values are same
+
+	//!= not equal to operator
+	
+	console.log(12!=0);//return true of both values are not same
+
+	//grater then operator
+	
+	console.log(12>6);//returns true if first value is greater then second value
+
+	//less then operator
+	
+	console.log(12<25);//returns true if first value is less then second value
+
+	//greater then or equal to operator
+	
+	console.log(12>=12);//returns true if first value is greater or equal to second value
+
+	//less then or equal to operator
+	
+	console.log(12<=12);//returns true if first value is less or equal to second value
+
+
+
 
 }
 
