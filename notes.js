@@ -233,4 +233,36 @@ console.log(tmp);
 
 }
 
+{
+
+	//operators in javascript
+	
+	//arithmetic operators
+	//in arith metic we have 1.addition 2.subtraction 3.multiplication 4.division 5.modulus 6.increment 7.decrement
+	
+
+	console.log(12+12);//addition
+
+	console.log(12-6);//subtraction
+
+	console.log(12*2);//multiplication
+
+	console.log(12/2);//division
+
+	console.log(12%2);//modulus
+
+	let a = 12, b = 6;
+
+	//++a prefix
+	//a++ postfix
+	
+	//--b prefix
+	//b-- postfix
+
+	console.log((++a));//increment
+
+	console.log((--b));//decrement
+
+}
+
 
